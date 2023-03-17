@@ -14,7 +14,7 @@
   "author": "Hafiyyan Abdul Aziz",
   "license": "MIT",
   "exports": {
-    ".": "./src/index.js"
+    ".": "./index.js"
   },
   "dependencies": {
     "lodash": "^4.17.21"
