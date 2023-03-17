@@ -4,18 +4,13 @@ const isCamelCase = (text) => {
     return false;
   }
 
-  // cek apakah teks hanya terdiri dari huruf dan angka
-  if (!/^[a-zA-Z0-9]+$/.test(text)) {
+  // cek apakah teks hanya terdiri dari huruf kecil dan besar
+  if (!/^[a-zA-Z]+$/.test(text)) {
     return false;
   }
 
   // cek apakah teks dimulai dengan huruf kecil
   if (text.charAt(0) !== text.charAt(0).toLowerCase()) {
-    return false;
-  }
-
-  // cek apakah teks mengandung karakter underscore (_) atau huruf kapital
-  if (text.indexOf("_") !== -1 || /[A-Z]/.test(text)) {
     return false;
   }
 
