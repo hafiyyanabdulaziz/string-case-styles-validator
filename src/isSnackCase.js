@@ -23,4 +23,4 @@ const isSnackCase = (text) => {
   return true;
 };
 
-export { isSnackCase };
+export default isSnackCase;

@@ -23,4 +23,4 @@ const isKebabCase = (text) => {
   return true;
 };
 
-export { isKebabCase };
+export default isKebabCase;

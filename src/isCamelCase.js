@@ -23,4 +23,4 @@ const isCamelCase = (text) => {
   return true;
 };
 
-export { isCamelCase };
+export default isCamelCase;

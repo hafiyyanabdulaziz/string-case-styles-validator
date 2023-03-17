@@ -23,4 +23,4 @@ const isPascalCase = (text) => {
   return true;
 };
 
-export { isPascalCase };
+export default isPascalCase;
