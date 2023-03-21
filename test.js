@@ -9,6 +9,6 @@ import {
   toSnackCase,
 } from "string-case-styles-validator";
 
-const test = isCamelCase("hafiyyanAbdulAziz3423");
+const test = isSnackCase("hafiyHyan_2432abdul");
 
 console.log(test);

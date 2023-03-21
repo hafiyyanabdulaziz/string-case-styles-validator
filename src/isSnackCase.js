@@ -4,13 +4,8 @@ const isSnackCase = (text) => {
     return false;
   }
 
-  // cek apakah teks hanya terdiri dari huruf dan angka
-  if (!/^[a-z0-9]+$/.test(text)) {
-    return false;
-  }
-
-  // cek apakah teks mengandung karakter underscore (_)
-  if (text.indexOf("_") === -1) {
+  // cek apakah teks hanya terdiri dari huruf kecil dan angka
+  if (!/^[a-z0-9_]+$/.test(text)) {
     return false;
   }
 

@@ -1,6 +1,6 @@
 {
   "name": "string-case-styles-validator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Check if string using case styles and convert it to another styles",
   "type": "module",
   "scripts": {
